@@ -9,7 +9,21 @@
       UnityLoader.instantiate("unityContainer", "Build/ArtTool.json");
     </script>
   </head>
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+    }
+    
+    .full-height 
+    {
+      height: 100%;
+      width: 100%;
+    }
+    </style>
+
   <body>
-    <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
+    <div id="unityContainer" class="full-height"></div>
   </body>
 </html>
